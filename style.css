@@ -1,0 +1,75 @@
+/*Polices personnalisées*/
+@font-face {
+	font-family: "fontawesome-webfont";
+ 	src:url("fonts/fontawesome-webfont.eot")format("eot"),
+ 		url("fonts/fontawesome-webfont.svg")format("svg"),
+ 		url("fonts/fontawesome-webfont.ttf")format("ttf"),
+ 		url("fonts/fontawesome-webfont.woff")format("woff"),
+}
+@font-face {
+    font-family: "glyphicons-halflings-regular";
+    src:url("fonts/glyphicons-halflings-regular.eot")format("eot"),
+    	url("fonts/glyphicons-halflings-regular.svg")format("svg"),
+    	url("fonts/glyphicons-halflings-regular.ttf")format("ttf"),
+		url("fonts/glyphicons-halflings-regular.eot")format("eot"),
+}
+@font-face {
+    font-family: "Roboto-regular-webfont";
+    src:url("fonts/roboto-regular-webfont.eot")format("eot"),
+    	url("fonts/roboto-regular-webfont.svg") format("svg"),
+    	url("fonts/roboto-regular-webfont.ttf") format("ttf"),
+    	url("fonts/roboto-regular-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "Roboto-bold-webfont";
+    src:url("fonts/roboto-bold-webfont.eot")format("eot"),
+    	url("fonts/roboto-bold-webfont.svg") format("svg"),
+    	url("fonts/roboto-bold-webfont.ttf") format("ttf"),
+    	url("fonts/roboto-bold-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "Roboto-medium-webfont";
+    src:url("fonts/roboto-medium-webfont.eot")format("eot"),
+    	url("fonts/roboto-medium-webfont.svg") format("svg"),
+    	url("fonts/roboto-medium-webfont.ttf") format("ttf"),
+    	url("fonts/roboto-medium-webfont.woff") format("woff");
+}
+
+/*Définition des styles principaux (largeur du site, fond, couleur par défaut du texte)*/
+body{
+    font-family: 'roboto';
+}
+
+#bloc_page {
+    width: 900px;
+    margin: auto;
+}
+h1, footer {
+    font-family: roboto;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/*En-tête et liens de navigation*/
+nav
+{
+    display: flex;
+    justify-content: flex-end;
+    
+    
+    
+}
+header {
+	background: url('images/separateur.png');
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    }
+.banniere_image{
+   background: url('images/slider/bg1.jpg') no-repeat;
+   background-size: cover;
+   height: 600px;
+}
+/*Bannière*/
+/*Section principale du corp de page, au centre*/
+/*Pied de page*/
